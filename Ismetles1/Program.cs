@@ -13,7 +13,15 @@ namespace Ismetles1
 
             int gepValasz = vel.Next(0, 3);
 
-            Console.WriteLine("Gép választása: {0}", lehetoseg[gepValasz]);
+            Console.WriteLine($"Gép választása: {lehetoseg[gepValasz]}");
+
+            int jatekosValasz;
+
+            Console.WriteLine("Kő 0 ; Papír 1 ; Olló 2");
+
+            Console.Write("Válassz: "); jatekosValasz = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Játékos választása: {lehetoseg[jatekosValasz]}");
 
             Console.ReadKey();
         }
