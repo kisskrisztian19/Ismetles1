@@ -2,7 +2,7 @@
 ## Első ismétlés + Játék
 
 ### Játékmenet 1.0
-- [] A számítógép választ egy lehetőséget
+- [x] A számítógép választ egy lehetőséget
 - [] A felhasználó megad egy lehetőséget
  - Nyerés:
     - Kő legyőzi az ollót
