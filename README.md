@@ -9,4 +9,4 @@
     - A papír a követ
     - Az olló a papírt
     - Döntetlennél a tét visszajár (1.40)
- - [] Kiírjuk az eredményt
+ - [x] Kiírjuk az eredményt
