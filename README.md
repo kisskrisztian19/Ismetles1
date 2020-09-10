@@ -11,3 +11,7 @@
     - Döntetlennél a tét visszajár (1.40)
  - [x] Kiírjuk az eredményt
  #### Különutas fejlesztés, nem órai munka!
+### Játékmenet 2.0
+ - [x] Végtelen játék
+ - [x] Statisztika
+ - [ ] Eredmények fájlba írása és megjelenítése (1:menet 2:játékos 3:gép és értékek ;-vel elválasztva.)
