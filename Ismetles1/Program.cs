@@ -83,10 +83,11 @@ namespace Ismetles1
                             }
                             break;
                     }
+                    Console.WriteLine("-----------------------------------------------------");
                     Console.Write($"Szeretnél még játszani? I/N {" "}");
                     char valasz;
-                    valasz = char.Parse(Console.ReadLine());
-                    if (valasz == 'N' || valasz == 'n')
+                    valasz = char.Parse(Console.ReadLine().ToLower());
+                    if (valasz == 'n')
                     {
                         dontes = false;
                     }
