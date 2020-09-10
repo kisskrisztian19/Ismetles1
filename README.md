@@ -14,4 +14,10 @@
 ### Játékmenet 2.0
  - [x] Végtelen játék
  - [x] Statisztika
- - [ ] Eredmények fájlba írása és megjelenítése (1:menet 2:játékos 3:gép és értékek ;-vel elválasztva.)
+ - [x] Eredmények fájlba írása és megjelenítése (1:menet 2:játékos 3:gép és értékek ;-vel elválasztva.) (Házi)
+### Játékmenet 3.0
+#### Módosítások:
+ - A rossz válasz esetén a program nem egy IF parancs alapján, 
+hanem a TRY-CATCH paranccsal küszöböli ki a hibákat.
+ - Rossz válasz esetén a program ad mégegy lehetőséget.
+ - A STREAM parancsoknál pótolva lettek a kihagyott "STREAM".Close() parancsok.
