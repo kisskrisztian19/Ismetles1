@@ -9,7 +9,7 @@ namespace Ismetles1
         static string[] lehetoseg = new string[] { "Kő", "Papír", "Olló" };
         static bool dontes = true; //A végén kerül eldöntésre, hogy folytatódik-e a játék
         static Random vel = new Random();
-        static int gepValasz = vel.Next(0, 3);
+        static int gepValasz;
         static int jatekospont, geppont, menetszam, jatekosValasz;
 
         static void StatisztikaFajlbol()
@@ -52,6 +52,7 @@ namespace Ismetles1
         }
         static void Jatek()
         {
+
                 Console.WriteLine($"Játékos választása: {lehetoseg[jatekosValasz]}");
                 switch (jatekosValasz)
                 {
@@ -130,6 +131,7 @@ namespace Ismetles1
             StatisztikaFajlbol();
             while (dontes)
             {
+                gepValasz = vel.Next(0, 3);
                 Valasztas(); //A játékos lehetőséget választ, ahogy a gép választása is megtörténik
                 if (dontes == false)
                 {
@@ -150,7 +152,6 @@ namespace Ismetles1
         }
     }
 }
-//HF BEFEJEZNI
 
 
 
